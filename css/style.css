@@ -2,93 +2,93 @@
 
 /* Cabeçalho */
 header{
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    border-bottom: 2px solid #0f642f;
+    background-color: black; /*cor de fundo*/
+    color: #fff; /*cor do texto central*/
+    padding: 15px; /*distancia entre elementos e borda*/
+    text-align: center; /*alinhamento horizontal de texto*/
+    border-bottom: 2px solid gray; /*definindo estilo btn*/
 }
 
 /* main galeria de produtos */
 .container{
-    background-color: #eee;
-    min-height: 30vh;
-    padding: 50px;
+    background-color: #eee;  /*cor de fundo*/
+    min-height: 30vh; /*altura dos boxes*/
+    padding: 50px; /*largura da pagina da galera*/
 }
 
 /* Tenis */
 .card{
-    width: 31%;
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 15px;
-    margin-bottom: 10px;
+    width: 31%; /*largura*/
+    display: inline-block; /*deixamos lado a lado*/
+    margin: 1% 1%; /* margem */
+    padding: 15px;  /*largura*/
+    margin-bottom: 10px;  /*define a area ou margem*/
 }
 
 /* Trabalhando as imagens */
 .product-image{
-    height: 300px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
+    height: 300px;  /*tamanho das img*/
+    width: 100%;  /*zoom das img*/
+    margin-bottom: 10px;/* espaco entre cada imagem e botao*/ 
+    background-position: /*center; posição das imagens*/
+    background-size: cover; /*renderlizacao das img*/
 }
 
 #img-1{
-    background-image: url('../img/luva-1.png');
+      background-image: url('../img/luva-1.png');  /*adicionando img*/  
 }
 
 #img-2{
-    background-image: url('../img/luva-2.png');
+    background-image: url('../img/luva-2.png'); /*adicionando img*/
 }
 
 #img-3{
-    background-image: url('../img/luva-3.png');    
+    background-image: url('../img/luva-3.png');     /*adicionando img*/
 }
 
 #img-4{
-    background-image: url('../img/luva-4.png');
+    background-image: url('../img/luva-4.png'); /*adicionando img*/
 }
 
 #img-5{
-    background-image: url('../img/luva-5.png');
+    background-image: url('../img/luva-5.png'); /*adicionando img*/
 }
 
 #img-6{
-    background-image: url('../img/tenis6.jpg');
+    background-image: url('../img/luva-6.png'); /*adicionando img*/
 }
-
+/* escritas das "luvas" */
 h3{
-    margin-bottom: 10px;
-    color: #3db36b;
-    border-left: 5px solid #0f642f;
-    padding-left: 7px;
-    font-size: 24px;
+    margin-bottom: 10px; /*cor da borda*/
+    color: black;
+    border-left: 5px solid gray;
+    padding-left: 7px; /*borda a esquerda das palavras*/
+    font-size: 24px; /*tamanho das letras*/
 }
 
 .bold{
-    font-weight: bold;
+    font-weight: bold; /*colocar letras em negrito*/
 }
-
+/* configuração do botão */
 .btn{
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    transition: 5s;
+    display: block; /*evita espacamentos*/
+    width: 100%; /*comprimento dos btn*/
+    text-align: center; /*centralizando btn*/
+    text-decoration: none; /*retiramos a linha de decoração*/
+    text-transform: uppercase; /*deixar letras maiusculas*/
+    background-color: gray; /*cor do btn*/
+    color: #fff; /*cor da letra*/
+    padding: 15px; /*largura do btn*/
+    border-radius: 5px; /*arredondamento das vertices*/
+    transition: 5s; /*tempo do efeito*/
 }
 .btn:hover{
-    background-color: #0f642f;
+    background-color: gray; /*efeito alteração de cor no btn "comprar*/"
 }
 /* Rodapé */
 footer{
-    background-color: #3db36b;
-    color: #fff;
-    border-top: 3px;
-    padding: 80px;
+    background-color: black; /*cor do rodapé*/
+     color: #fff;  /*cor das letras do rodapé*/
+    border-top: 3px; /*cor da borda do rodapé*/
+    padding: 80px;  /*largura do rodapé*/
 }
